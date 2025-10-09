@@ -10,11 +10,9 @@ assignment_name = "Exercise_7"
 
 
 files = ["1_image_filtering.ipynb", 
-         "2_moving_average.ipynb", 
-         "3_radar.ipynb", 
-         "4_autocorrelation.ipynb",
-         "5_exercise_review.ipynb"]
-files = ["4_autocorrelation.ipynb"]
+         "2_radar.ipynb", 
+         "3_autocorrelation.ipynb",
+         "4_exercise_review.ipynb"]
 
 title = "Assignment 7: FIR filters, convolution and correlation"
 
@@ -37,7 +35,7 @@ y[n] &= \sum_{n=0}^{N} h[k]\cdot x[n-k] \\
 &= h[n]*x[n]
 \end{align*}
 """
-intro_text = "Introduction"
+
 
 def write_to_PDF(student_name: str):
     """
